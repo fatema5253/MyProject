@@ -67,6 +67,7 @@ F5:
 void yyerror(char *s)
 {
 	fprintf(stderr,"%s\n",s);
+	return;
 }
 int main(int argc,char *argv[])
 {
